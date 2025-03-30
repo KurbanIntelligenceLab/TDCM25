@@ -25,12 +25,12 @@ TDCM25 is a comprehensive, multi-modal benchmark dataset designed to advance mac
 Below is the overall dataset figure illustrating the data structure and multi-modal representations:
 
 <div align="center">
-  <embed src="figs/overal_fig.pdf" type="application/pdf" width="80%" height="600px" />
+  <embed src="figs/overal_fig.jpg" type="application/pdf" width="80%" height="600px" />
   <br>
   <em>Figure: Overall structure and modalities of the TDCM25 dataset</em>
 </div>
 
-*If the embedded figure does not display correctly, please [click here](figs/overal_fig.pdf) to view the figure.*
+*If the embedded figure does not display correctly, please [click here](figs/overal_fig.jpg) to view the figure.*
 
 ## Key Features
 
