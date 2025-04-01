@@ -20,7 +20,6 @@ class ClassificationConfig(BaseTDCD25Config):
     image_size: int = 224
     mean: List[float] = field(default_factory=lambda: [0.485, 0.456, 0.406])
     std: List[float] = field(default_factory=lambda: [0.229, 0.224, 0.225])
-    split_output_dir: str = "benchmarks/phase_classification/dataset_splits"
     output_dir: str = "benchmarks/phase_classification/results"
     num_epochs: int = 10
     learning_rate: float = 0.001
@@ -100,3 +99,13 @@ def map_elements_to_z(elements_batch: List[List[str]]) -> List[torch.Tensor]:
 class TorchvisionConfig(ClassificationConfig):
     model_name: str = "vgg19"
     pretrained: bool = True
+
+@dataclass
+class RegressionConfig(BaseTDCD25Config):
+    target_label: str = "HOMO" 
+    output_dir: str = "results"
+    num_epochs: int = 10
+    learning_rate: float = 1e-3
+    label_file_path: str = BaseTDCD25Config.base_dir + "/all_labels.txt"
+    image_model_name: str = "vit_b_16"
+    image_model_pretrained: bool = True

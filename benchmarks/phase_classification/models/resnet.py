@@ -6,7 +6,7 @@ import os
 import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__)))))
 from benchmarks.phase_classification.classification_dataloader import TDCD25ClassificationDataModule
-from benchmarks.phase_classification.trainers import BaseTrainer
+from benchmarks.phase_classification.classification_base_trainer import BaseTrainer
 from config import TorchvisionConfig
 
 # -------------------------

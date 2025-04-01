@@ -7,7 +7,7 @@ import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__)))))
 from config import SchNetConfig, map_elements_to_z
 from benchmarks.phase_classification.classification_dataloader import TDCD25ClassificationDataModule
-from benchmarks.phase_classification.trainers import BaseTrainer
+from benchmarks.phase_classification.classification_base_trainer import BaseTrainer
 import torch.optim as optim
 from torch_geometric.data import Batch
 # -------------------------
@@ -53,7 +53,7 @@ class SchNetTrainer(BaseTrainer):
         self.criterion = nn.CrossEntropyLoss()
         self.optimizer = optim.Adam(self.model.parameters(), lr=config.learning_rate)
 
-    def process_batch(self, batch) -> (Data, torch.Tensor):
+    def process_batch(self, batch) -> tuple[Data, torch.Tensor]:
         labels = batch['label'].to(self.device)
         xyz = batch['xyz']
         elements = batch['element']
