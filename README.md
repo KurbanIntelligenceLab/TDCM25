@@ -20,7 +20,17 @@ TDCM25 is a comprehensive, multi-modal benchmark dataset designed to advance mac
 ### Data
 
 You can download the data for compounds from the following link: [TDCM25 Data](https://drive.google.com/drive/folders/1gcTNtTMUI-ws8v2uaLw9REs4vx7qR6ke?usp=sharing)
+## Dataset File Structure
 
+```
+TDCM25/
+├── Phases/
+│   ├──Temperatures/
+│      ├── xyz/                # 3D atomic coordinates (.xyz files)
+│      ├── images/             # Molecular images (e.g., .png files)
+│      └── text/               # Textual metadata (.json or .txt files)
+├── all_labels.txt             # Labels for prediction tasks
+```
 ### Overall Dataset and Tasks
 
 Below is the overall dataset figure illustrating the data structure and multi-modal representations:
@@ -39,21 +49,7 @@ Below is the overall dataset figure illustrating the data structure and multi-mo
 ## Dataset Generation
 
 TDCM25 was generated using density functional tight binding (DFTB) simulations (via DFTB+ with the tiorg-0-1 parameters) to compute electronic and structural properties across a range of temperatures.
-## Dataset File Structure
 
-```
-TDCM25/
-|
-├── data/
-|   ├── Phases    
-│       ├── xyz/                # 3D atomic coordinates (.xyz files)
-│       ├── images/             # Molecular images (e.g., .png files)
-│       └── metadata/           # Textual metadata (.json or .txt files)
-├── benchmarks/
-    ├── phase_classification/  # Scripts and splits for phase classification task
-    ├── property_prediction/   # Scripts for regression tasks on electronic properties
-    └── explainability/        # Scripts for LLM-based explainability experiments
-```
 
 ## How to Use
 
