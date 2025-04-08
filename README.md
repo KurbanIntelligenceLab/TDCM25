@@ -17,6 +17,10 @@ TDCM25 is a comprehensive, multi-modal benchmark dataset designed to advance mac
   - **Molecular Images:** High-resolution RGB images generated per configuration
   - **Textual Metadata:** Detailed descriptions (e.g., Ti:O ratios, temperature, dimensions, and rotation angles)
 
+### Data
+
+You can download the data for compounds from the following link: [TDCM25 Data](https://drive.google.com/drive/folders/1gcTNtTMUI-ws8v2uaLw9REs4vx7qR6ke?usp=sharing)
+
 ### Overall Dataset and Tasks
 
 Below is the overall dataset figure illustrating the data structure and multi-modal representations:
