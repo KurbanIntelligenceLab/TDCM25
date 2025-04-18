@@ -76,14 +76,15 @@ TDCM25 was generated using density functional tight binding (DFTB) simulations (
 
 If you use TDCM25 in your research, please cite our work as follows:
 
-@inproceedings{
-polat2025tdcm,
-title={{TDCM}25: A Multi-Modal Multi-Task Benchmark for Temperature-Dependent Crystalline Materials},
-author={Can Polat and HASAN KURBAN and Erchin Serpedin and Mustafa Kurban},
-booktitle={AI for Accelerated Materials Design - ICLR 2025},
-year={2025},
-url={https://openreview.net/forum?id=bNB5SQTqKL}
+```bibtex
+@inproceedings{polat2025tdcm,
+  title     = {{TDCM}25: A Multi-Modal Multi-Task Benchmark for Temperature-Dependent Crystalline Materials},
+  author    = {Can Polat and Hasan Kurban and Erchin Serpedin and Mustafa Kurban},
+  booktitle = {AI for Accelerated Materials Design - ICLR 2025},
+  year      = {2025},
+  url       = {https://openreview.net/forum?id=bNB5SQTqKL}
 }
+```
 
 ## Contact
 
