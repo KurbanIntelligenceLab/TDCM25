@@ -6,8 +6,7 @@
 
 TDCM25 is a comprehensive, multi-modal benchmark dataset designed to advance machine learning research in materials science. It focuses on modeling temperature-dependent properties of titanium dioxide (TiO₂) across its three crystalline phases—anatase, brookite, and rutile—by combining structural, visual, and textual modalities. [Paper Link](https://openreview.net/forum?id=bNB5SQTqKL)
 
-##### Experiment codes are currently being further improved. Feel free to reach out to can.polat@tamu.edu with any questions and implementations to your own models. Please use [TDCM25 Request] in the subject. 
-Data is accessible in below link.
+##### The experiment codes are currently undergoing further improvements. For any questions or assistance with implementing them into your own models, feel free to contact can.polat@tamu.edu. Please include [TDCM25 Request] in the subject line.
 
 
 ## Overview
