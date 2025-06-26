@@ -345,7 +345,7 @@ Then, generate a caption in the following exact format (replace the placeholders
 if __name__ == "__main__":
     # Example API keys and model configurations
     api_keys = {
-        'openrouter': "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"
+        'openrouter': ""
     }
     models_to_test = [
         {"name": "openai/gpt-4o-mini", "use_openrouter": True}
