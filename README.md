@@ -2,7 +2,7 @@ The work has been improved as a new version. Please refer to the most up to date
 [CrysMTM](https://github.com/KurbanIntelligenceLab/CrysMTM)
 ---
 
-# TDCM25: A Multi-modal Multi-task Benchmark for Temperature-dependent Crystalline Materials 
+## TDCM25: A Multi-modal Multi-task Benchmark for Temperature-dependent Crystalline Materials 
 #### by Can Polat, Hasan Kurban, Erchin Serpedin, and Mustafa Kurban, ICLR 2025, Singapore.
 
 TDCM25 is a comprehensive, multi-modal benchmark dataset designed to advance machine learning research in materials science. It focuses on modeling temperature-dependent properties of titanium dioxide (TiO₂) across its three crystalline phases—anatase, brookite, and rutile—by combining structural, visual, and textual modalities. [Paper Link](https://openreview.net/forum?id=bNB5SQTqKL)
